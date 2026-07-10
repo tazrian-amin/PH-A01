@@ -195,7 +195,8 @@ hr {
   color: #93c5fd;
 }
 
-.pro-plan hr {
+.pro-plan hr,
+footer hr {
   background-color: #ffffff;
   opacity: 0.1;
 }
@@ -225,12 +226,21 @@ hr {
 }
 
 footer {
+  height: 120px;
+  margin-top: 64px;
+  padding: 36px 0;
+  background-color: #0d1b2a;
+}
+
+.footer-info,
+.footer-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 144px;
-  margin-top: 64px;
-  background-color: #0d1b2a;
+}
+
+footer hr {
+  margin: 32px;
 }
 
 footer p {
@@ -239,10 +249,20 @@ footer p {
   font-size: 12px;
 }
 
-.quick-links a {
+.quick-links a,
+.social-links a {
   text-decoration: none;
   padding: 0 8px;
   color: #ffffff;
   opacity: 0.4;
   font-size: 12px;
+}
+
+.social-links a {
+  opacity: 1;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
 }
