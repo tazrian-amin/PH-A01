@@ -5,10 +5,17 @@
   font-family: "Inter", sans-serif;
 }
 
+.btn {
+  padding: 8px 32px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
 nav {
   padding: 16px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -17,7 +24,7 @@ nav {
   height: auto;
 }
 
-li {
+nav li {
   list-style: none;
 }
 
@@ -37,10 +44,6 @@ li {
   background-color: #1d4ed8;
   color: white;
   font-weight: bold;
-  padding: 8px 32px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
 }
 
 .primary-btn:hover {
@@ -72,8 +75,10 @@ li {
   font-size: 16px;
 }
 
-.speakers {
-  padding: 64px;
+.speakers,
+.pricing {
+  padding: 0 64px;
+  margin-top: 64px;
 }
 
 .speakers h1 {
@@ -87,7 +92,8 @@ li {
   gap: 20px;
 }
 
-.card {
+.card,
+.price-card {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
 }
@@ -99,7 +105,8 @@ li {
   border-top-right-radius: 8px;
 }
 
-.card-content {
+.card-content,
+.price-card {
   padding: 16px;
 }
 
@@ -107,7 +114,9 @@ li {
   margin: 12px 0;
 }
 
-.card-content p {
+.card-content p,
+.subtitle,
+.plan-user-limit {
   font-size: 12px;
   font-weight: 300;
   color: #575757;
@@ -115,5 +124,99 @@ li {
 
 .card h6 {
   color: #2563eb;
+  font-weight: 500;
+}
+
+.pricing > h1 {
+  color: #0d1b2a;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pricing-flexbox {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 20px;
+}
+
+.price-card {
+  width: 300px;
+}
+
+.plan-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+hr {
+  margin: 16px 0;
+  background-color: #e5e7eb;
+  border: none;
+  height: 1px;
+}
+
+.plan-details li {
+  margin-left: 16px;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.plan-details li::marker {
+  color: #2563eb;
+  font-size: 16px;
+}
+
+.price-card button {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.outline-primary-btn {
+  background-color: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.pro-plan {
+  background-color: #0d1b2a;
+  color: #ffffff;
+}
+
+.pro-plan .plan-title {
+  color: #93c5fd;
+}
+
+.pro-plan hr {
+  background-color: #ffffff;
+  opacity: 0.1;
+}
+
+.pro-plan .plan-user-limit {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.pro-plan .plan-details li {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.team-plan {
+  background-color: #f8f9fb;
+}
+
+.team-plan button {
+  background-color: transparent;
+  border: 1px solid #0d1b2a;
+  color: #0d1b2a;
   font-weight: 500;
 }
