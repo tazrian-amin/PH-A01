@@ -38,7 +38,7 @@ li {
   color: white;
   font-weight: bold;
   padding: 8px 32px;
-  border-radius: 5px;
+  border-radius: 4px;
   border: none;
   cursor: pointer;
 }
@@ -70,4 +70,50 @@ li {
   margin-top: 216px;
   padding: 12px 48px;
   font-size: 16px;
+}
+
+.speakers {
+  padding: 64px;
+}
+
+.speakers h1 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h4 {
+  margin: 12px 0;
+}
+
+.card-content p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #575757;
+}
+
+.card h6 {
+  color: #2563eb;
+  font-weight: 500;
 }
