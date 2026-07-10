@@ -220,3 +220,29 @@ hr {
   color: #0d1b2a;
   font-weight: 500;
 }
+
+.ai-section {
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 144px;
+  margin-top: 64px;
+  background-color: #0d1b2a;
+}
+
+footer p {
+  color: #ffffff;
+  opacity: 0.4;
+  font-size: 12px;
+}
+
+.quick-links a {
+  text-decoration: none;
+  padding: 0 8px;
+  color: #ffffff;
+  opacity: 0.4;
+  font-size: 12px;
+}
