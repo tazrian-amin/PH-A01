@@ -1,7 +1,7 @@
 * {
   margin: 0 auto;
   padding: 0;
-  max-width: 1200px;
+  max-width: 1400px;
   font-family: "Inter", sans-serif;
 }
 
@@ -38,6 +38,11 @@ nav li {
   text-decoration: none;
   color: #575757;
   font-family: "Arimo", sans-serif;
+}
+
+.nav-links a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
 }
 
 .primary-btn {
@@ -186,6 +191,11 @@ hr {
   font-weight: 500;
 }
 
+.outline-primary-btn:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
 .pro-plan {
   background-color: #0d1b2a;
   color: #ffffff;
@@ -220,6 +230,11 @@ footer hr {
   border: 1px solid #0d1b2a;
   color: #0d1b2a;
   font-weight: 500;
+}
+
+.team-plan button:hover {
+  background-color: #0d1b2a;
+  color: white;
 }
 
 .ai-section {
@@ -263,8 +278,6 @@ footer hr {
 }
 
 .ai-features {
-  display: grid;
-  gap: 10px;
   margin-top: 20px;
   list-style: none;
 }
@@ -272,6 +285,8 @@ footer hr {
 .ai-features li {
   position: relative;
   padding-left: 20px;
+  margin-left: 16px;
+  margin-bottom: 8px;
   color: #334155;
   font-size: 14px;
 }
@@ -362,8 +377,8 @@ footer p {
   font-size: 12px;
 }
 
-.quick-links a,
-.social-links a {
+.social-links a,
+.quick-links a {
   text-decoration: none;
   padding: 0 8px;
   color: #ffffff;
@@ -378,4 +393,13 @@ footer p {
 .social-icon {
   width: 24px;
   height: 24px;
+}
+
+.social-icon:hover {
+  width: 26px;
+  height: 26px;
+}
+
+.quick-links a:hover {
+  opacity: 1;
 }
